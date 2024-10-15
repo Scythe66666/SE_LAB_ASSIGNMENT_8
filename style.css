@@ -1,0 +1,79 @@
+/* Background image for the form */
+.bg-image {
+    background: url('https://www.example.com/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  
+  .form-card {
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 2rem;
+  }
+  
+  /* Form styles */
+  .form-floating label {
+    color: #6c757d;
+    font-weight: 500;
+  }
+  
+  .form-floating .form-control {
+    border-radius: 8px;
+    padding: 20px 12px;
+  }
+  
+  .form-floating .form-select {
+    border-radius: 8px;
+    padding: 20px 12px;
+  }
+  
+  .form-control:focus, .form-select:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+  }
+  
+  /* Legend styling */
+  legend {
+    font-size: 1.3rem;
+    color: #0056b3;
+    font-weight: bold;
+    border-bottom: 2px solid #007bff;
+  }
+  
+  .btn {
+    background-color: #007bff;
+    border-color: #007bff;
+    padding: 12px 40px;
+    border-radius: 30px;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+    box-shadow: 0 8px 15px rgba(0, 123, 255, 0.4);
+  }
+  
+  /* Responsive form */
+  @media (max-width: 768px) {
+    .form-card {
+      padding: 1rem;
+    }
+  
+    .form-control, .form-select {
+      padding: 12px 8px;
+    }
+  
+    .btn {
+      width: 100%;
+    }
+  }
+  

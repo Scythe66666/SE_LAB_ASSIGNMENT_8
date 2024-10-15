@@ -1,0 +1,3 @@
+Software Engineering Practical No. 8
+Practical Tasks:-
+Create a git remote repository on any of the git hosting websites, using one of the software you have written so far. In a group of three or more people, carry out the following activities: reporting of bus, assigning of issues, fixing bugs, git branch and git pull requests.
